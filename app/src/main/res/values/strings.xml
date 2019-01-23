@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BarCodeReader</string>
+    <string name="codigo_de_barras">Codigo de Barras</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="cantidades">Cantidades</string>
+    <string name="codigos_de_barras">Codigos de Barras</string>
+    <string name="nombre">Nombre del producto</string>
+</resources>
