@@ -9,14 +9,34 @@
     tools:context=".activities.RegistrerActivity">
 
     <TextView
+        android:text="@string/codigo_de_barras"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textAlignment="center"
         android:id="@+id/CodigoGuardado"
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
 
     <EditText
+        android:id="@+id/nombre"
+        android:hint="@string/nombre"
+        android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
-    <TextView
+    <EditText
+        android:id="@+id/cantidades"
+        android:hint="@string/cantidad"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
         android:layout_height="wrap_content"
-        android:layout_width="match_parent"/>
+        android:layout_width="match_parent"
+        android:onClick="load"
+        android:text="Cargar y continuar"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="finish"
+        android:text="Cargar y terminar"/>
 </LinearLayout>
