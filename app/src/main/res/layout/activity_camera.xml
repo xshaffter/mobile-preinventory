@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/mainFrame"
-    android:layout_marginStart="50dp"
+    android:layout_marginStart="@dimen/margin_left"
     tools:context=".activities.CameraActivity">
 
 </FrameLayout>

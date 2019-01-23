@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginStart="50dp"
-    android:layout_marginEnd="50dp"
+    android:layout_marginStart="@dimen/margin_left"
+    android:layout_marginEnd="@dimen/margin_left"
     tools:context=".activities.RegistrerActivity">
 
     <TextView
